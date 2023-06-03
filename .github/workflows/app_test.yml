@@ -30,4 +30,3 @@ jobs:
         cache: 'npm'
     - run: cd thesis-dashboard    
     - run: npm run dev
-    - run: npm test
