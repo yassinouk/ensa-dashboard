@@ -28,6 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Navigate to Directory
     - run: cd thesis-dashboard
     - name: intall dependecies
     - run: npm install
