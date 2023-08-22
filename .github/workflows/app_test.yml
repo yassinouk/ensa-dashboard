@@ -28,5 +28,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd thesis-dashboard    
+    - run: cd thesis-dashboard
+    - name: intall dependecies
+    - run: npm install
+    - name: run dev env
     - run: npm run dev
